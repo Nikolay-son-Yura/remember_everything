@@ -1,0 +1,33 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: scheduler-rest
+  datasource:
+#    url: jdbc:h2:mem:test
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/my_db
+    username: su
+    password: 123
+
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  mail:
+    host: smtp.mail.ru
+    password: F06dqk6Q2ACYxJBtdxxq
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: nikola_doma@mail.ru
