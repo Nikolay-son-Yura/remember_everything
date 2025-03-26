@@ -17,8 +17,8 @@ public class App
         return new ModelMapper();
 
     }
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(); // or any other password encoder
-    }
+//    @Bean
+//    public PasswordEncoder passwordEncoder() {
+//        return new BCryptPasswordEncoder(); // or any other password encoder
+//    }
 }
