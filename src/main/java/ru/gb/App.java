@@ -21,4 +21,4 @@ public class App
 //    public PasswordEncoder passwordEncoder() {
 //        return new BCryptPasswordEncoder(); // or any other password encoder
 //    }
-}q
+}
